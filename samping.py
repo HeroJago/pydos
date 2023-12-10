@@ -2,8 +2,8 @@ from samp_client.client import SampClient
 import sys
 import threading
 
-ip = sys.argv[1]
-udp = sys.argv[2]
+ip = input("IP : ")
+udp = input("port : ")
 
 def CUDP(ip, port):
     while True:
