@@ -4,6 +4,7 @@ import threading
 import os
 
 os.system(py -m pip install samp-client)
+os.system(pip install samp-client)
 
 ip = input("IP : ")
 udp = input("port : ")
